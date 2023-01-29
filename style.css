@@ -27,6 +27,12 @@ color: #434343;
     }
 
 
+    .button:hover {
+      background-color: #1e60b6;
+      border: none;
+      color: white;
+    }
+
     .duration{padding: 8px 0px 20px;
     font-size: 16px;}
 
@@ -60,6 +66,8 @@ color: #434343;
   flex-direction: column;
   background-color: #C6E8FF; 
   box-shadow: 0 3px 10px 0 rgb(189, 233, 241);
+  padding-top: 2rem;
+  padding-bottom: 2rem;
 
 }
     
@@ -67,7 +75,7 @@ color: #434343;
       font-size: 21px;
       padding-left: min(calc(60px + (40 - 20) * (100vw - 600px) / (50)), 10%);
       padding-right: min(calc(60px + (40 - 20) * (100vw - 600px) / (50)), 10%);
-      padding-top: 20rem;
+      padding-top: 8rem;
       display: block;
     
     }
