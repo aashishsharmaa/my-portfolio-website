@@ -31,10 +31,11 @@ color: #2a2a2a;
   text-align: center;}
 
 .intro-text {font-size: 2vw; line-height: 160%;}
-.intro h1{font-size: 10vw; font-weight: 600; line-height: 200%;}
+.intro h1{font-size: 6vw; font-weight: 600; line-height: 200%;}
 
-p{padding-bottom: 1.25rem;font-size: 21px; line-height: 180%; text-align: justify;}
-p.thick {font-weight: 600; padding-bottom: 1rem;} 
+p{padding-bottom: 1.25rem;font-size: 21px; font-weight:400; 
+  font-family: "Poppins", sans-serif; color: #434343; text-align: justify;}
+p.thick {font-weight: 600; padding-bottom: 1rem;}
 p.left {text-align: left;} 
 p.medium{font-size: 18px; margin-top: -1rem;}
 
@@ -43,7 +44,7 @@ p.medium{font-size: 18px; margin-top: -1rem;}
 p.small{font-size: 16px; text-align: center; padding: 1rem 0rem ;}
 h2{line-height: 150%;}
 h1, h2, h4 {font-weight:500;}
-h1 {font-size: 36px; line-height: 200%;}
+h1 {font-size: 32px; line-height: 150%;}
 
 .number-items li{margin-left:20px; padding-left: 10px; padding-top: 1.25rem;}
 .number-items li:last-child{padding-bottom: 1.25rem;}
@@ -191,6 +192,7 @@ a:link {text-decoration: none;}
   text-decoration: none;
   display: none;
   font-size: 16px;
+  
   margin: 4px 2px;
   cursor: pointer;
   border-radius: 4px;
@@ -227,18 +229,6 @@ margin: 0 auto;}
 }
 
 
-
-/* .title-page
-    {
-        font-size: 18px;
-        padding-left: 20px;
-        padding-right: 20px;
-        padding-top: 20px;
-        padding-bottom: 40px;
-        line-height: 250%;
-    } */
-    
-    /* .title-page h1 {line-height: 200%;} */
   
   
     .section {
@@ -271,12 +261,12 @@ margin: 0 auto;}
   }
   
   .header li a {
-    font-family: "Poppins", sans-serif;
+    
     display: block;
-    padding: 15px 20px;
-    font-weight: 400;
     text-decoration: none;
-    border-top: #EFF9FF solid 1px;
+    /* font-size: 18px; */
+    /* font-weight: 500; */
+    /* border-top: #ffeff6 solid 1px; */
   }
   
   .header li a:hover,
@@ -285,7 +275,7 @@ margin: 0 auto;}
   }
   
   .header .active {
-    font-weight: 600; 
+    font-weight: 600;
   }
 
   .header .logo {
@@ -293,7 +283,7 @@ margin: 0 auto;}
     float: left;
     font-size: 1.5em;
     font-weight: 400;
-    padding: 15px 20px;
+    padding: 15px 30px;
     text-decoration: none;
   }
   
@@ -400,7 +390,7 @@ margin: 0 auto;}
       .card-image {width: 100%;}
       .bullet-items li{margin-left:12px; padding-left: 4px; padding-top: 1.25rem;}
       .intro-text {font-size: 6vw; line-height: 200%;padding-top:2rem;}
-      .intro h1{font-size: 10vw; font-weight: 600; line-height: 150%;}
+      .intro h1{font-size: 8vw; font-weight: 600; line-height: 150%; padding-top:2rem;}
   
         p{text-align: left;}
 
@@ -555,12 +545,12 @@ margin: 0 auto;}
   .intro {padding:0rem 0rem;justify-content: center; align-content: center;}
 
   .intro-text {font-size: 2vw; line-height: 160%;max-width: 20ch; padding-top:01rem;}
-  .intro h1{font-size: 2.5vw; font-weight: 600; line-height: 150%;
-    padding-top:6rem;}
+  .intro h1{font-size: 2.5vw; font-weight: 600; line-height: 150%; max-width: 40ch; padding-top:6rem;}
+  .intro h2{font-size: 2.5vw; font-weight: 600; line-height: 150%; padding-top:6rem; }
     .intro * {text-align: left;}
 
 
-  .section-grid h2{font-size: 32px;}
+  .section-grid h2{font-size: 32px; max-width: 35ch;}
   
   .duration {font-size: 18px;}
     p {font-size: 21px;}
