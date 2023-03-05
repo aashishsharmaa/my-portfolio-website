@@ -23,7 +23,7 @@ color: #2a2a2a;
   text-align: center;}
 
 .intro-text {font-size: 2vw; font-weight: 500; line-height: 160%;}
-.intro h1{font-size: 6vw; font-weight: 500; line-height: 200%;}
+.intro h1{font-size: 6vw; font-weight: 400; line-height: 200%;}
 
 p{padding-bottom: 1.25rem;font-size: 21px; font-weight:400; 
   font-family: "Poppins", sans-serif; color: #434343; text-align: justify;}
@@ -31,14 +31,14 @@ p.thick {font-weight: 600; padding-bottom: 1rem;}
 p.left {text-align: left;} 
 p.medium{font-size: 18px; margin-top: -1rem;}
 p.caption{font-size: 18px; margin-bottom: -1rem;}
-p.top-heading {font-family: "Merriweather", serif; font-size: 24px; font-weight: 600; margin-bottom: -1rem;}
+p.top-heading {font-size: 24px; font-weight: 500; margin-bottom: -1rem;}
 
 
 p.small{font-size: 16px; text-align: center; padding: 1rem 0rem ;}
 h2{line-height: 150%;}
 h1, h2{font-weight:500;}
 h1 {font-size: 36px; line-height: 150%; padding-bottom: .5rem;}
-h2{font-size: 24px; color: #434343; font-family: "Merriweather", serif; font-weight:600;}
+h2{font-size: 24px; color: #434343;font-weight:500;}
 
 .number-items li{margin-left:20px; padding-left: 10px; padding-top: 1.25rem;}
 .number-items li:last-child{padding-bottom: 1.25rem;}
@@ -493,8 +493,8 @@ margin: 0 auto;}
     grid-template-columns: repeat(10, 1fr);
   }
   .section-center{
-    grid-column-start: 1;
-    grid-column-end: 11;
+    grid-column-start: 3;
+    grid-column-end: 9;
   }
 
   .section-left {
